@@ -1,0 +1,10 @@
+{
+  "name": "pkg-details",
+  "version": "1.0.0",
+  "description": "get npm package details",
+  "main": "index.js",
+  "repository": "git@github.com:sagar-gavhane/pkg-details.git",
+  "author": "sagar",
+  "license": "MIT",
+  "private": false
+}
