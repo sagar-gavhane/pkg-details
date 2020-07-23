@@ -3,8 +3,31 @@
   "version": "1.0.0",
   "description": "get npm package details",
   "main": "index.js",
+  "bin": {
+    "pkg-details": "index.js"
+  },
   "repository": "git@github.com:sagar-gavhane/pkg-details.git",
   "author": "sagar",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "keywords": [
+    "pkg details",
+    "details",
+    "pkg-info",
+    "npm-info"
+  ],
+  "scripts": {
+    "release": "np"
+  },
+  "devDependencies": {
+    "np": "^6.3.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "date-fns": "^2.15.0",
+    "got": "^11.5.1",
+    "minimist": "^1.2.5",
+    "ora": "^4.0.5",
+    "terminal-link": "^2.1.1"
+  }
 }
